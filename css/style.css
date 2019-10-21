@@ -2,13 +2,14 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 
 }
 html,body{
   height: 100%;
 }
 .center{
-  width: 1280px;
+  width: 1200px;
   margin: 0 auto;
 
 }
@@ -33,11 +34,12 @@ html,body{
 }
 .banner > .center{
   height: 100%;
-  text-align: right;
+
 
 }
 .formulario{
-  display: inline-block;
+  padding: 15px;
+  float: right;
   position: relative;
   width: 350px;
   height: calc(100% - 50px);
@@ -45,6 +47,79 @@ html,body{
   top: 25px;
   border: 1px solid #507d4b;
 
+}
+
+.formulario h3{
+font-size: 16px;
+color: white;
+text-align: justify;
+line-height: 25px;
+}
+.dados{
+  float:left;
+  position: relative;
+  width: 550px;
+  height:375px;
+   margin-top: 100px;
+  background-color: rgba(43, 191, 27, 0.2); /*#2bbf1b*/
+  top: 25px;
+  border: 1px solid #507d4b;
+  margin-left: 120px;
+  padding: 25px;
+  margin-top: 70px;
+  color:#ccc;
+
+}
+.dados h2{
+  text-align: center;
+}
+.dados ul{
+  list-style-position: inside;
+  font-size: 20px;
 
 
+}
+.dados ul li{
+  margin-top: 15px;
+}
+.input-container{
+  margin-top: 20px;
+}
+.input-container span{
+  display: inline-block;
+  width: 100%;
+  font-size: 17px;
+  color: white;
+
+}
+.input-container input[type="text"],.input-container input[type="email"],.input-container input[type="tel"]{
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  outline: 0;
+
+}
+.formulario p{
+  color: #ccc;
+  margin: 20px 0;
+}
+
+.botao{
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  background-color: #507d4b;
+  border: 1px solid #ccc;
+  font-size: 20px;
+  color:#ccc;
+  border-bottom: 5px solid #ccc;
+  margin:20px 0;
+
+}
+.botao:hover{
+  background-color: #6C573B;
+  }
+.formulario .input-submit-container{
+  text-align: center;
 }
