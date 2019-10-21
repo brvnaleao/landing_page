@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+html,body{
+  height: 100%;
+}
+.center{
+  width: 1280px;
+  margin: 0 auto;
+
+}
+.header{
+  width: 100%;
+  background-color: #2bbf1b;
+  height: 65px;
+
+}
+.logo{
+  height: 60px;
+
+
+}
+.banner{
+  width: 100%;
+  height: 600px;
+  background-image:url('../imagens/background.jpeg');
+  background-position: center;
+  background-size: cover;
+
+}
+.banner > .center{
+  height: 100%;
+  text-align: right;
+
+}
+.formulario{
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  height: calc(100% - 50px);
+  background-color: rgba(43, 191, 27, 0.2); /*#2bbf1b*/
+  top: 25px;
+  border: 1px solid #507d4b;
+
+
+
+}
