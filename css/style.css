@@ -297,7 +297,25 @@ footer{
     margin:20px 0;
 
   }
+  .container-divisao{
+    width: 100%;
+    max-width: 750px;
+    padding:20px;
+    float: none;
+    display: inline-block;
+  }
 
+  .container-texto{
+    display: inline-block;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 17px;
+  }
+  .container-divisao p{
+    padding:10px 20px;
+    width: 100%;
+    line-height: 26px;
+  }
 
 }
 
@@ -321,25 +339,6 @@ footer{
 
   .botao{
     font-size: 17px;
-  }
-
-  .container-divisao{
-  width: 100%;
-  max-width: 600px;
-  padding:20px;
-  float: none;
-  display: inline-block;
-  }
-
-  .container-texto{
-    display: inline-block;
-    margin-top: 15px;
-    text-align: center;
-  }
-  .container-divisao p{
-    padding:10px 20px;
-    width: 100%;
-    line-height: 23px;
   }
 
 }
